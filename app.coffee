@@ -1,3 +1,4 @@
+'use strict'
 connect = require 'connect'
 vhost = require 'vhost'
 
