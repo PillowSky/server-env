@@ -6,6 +6,9 @@ iportal = require('./iportal/app').app
 campus = require('./smart-campus-backend/app').app
 mongo = require('./mongo-express/app')
 
+process.on 'uncaughtException', (err) ->
+	console.log err
+
 bridge = connect()
 bridge.use(vhost('pillowsky.org', iportal))
 bridge.use(vhost('iportal.pillowsky.org', iportal))
