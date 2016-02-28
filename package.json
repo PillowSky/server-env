@@ -1,5 +1,5 @@
 {
-  "name": "Yuzo-nodejs-server-env",
+  "name": "server-env",
   "version": "1.0.0",
   "private": true,
   "dependencies": {

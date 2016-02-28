@@ -26,8 +26,3 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
-
-# Files that are not write directly
-*.js
-*.css
-*.html
